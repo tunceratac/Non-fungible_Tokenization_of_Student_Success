@@ -1,0 +1,104 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  height: 100vh;
+  position: relative;
+}
+
+.app-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('./iyte.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* This makes the image fit the entire container */
+  opacity: 0.3; /* This sets the opacity to 30% */
+  z-index: -1;
+}
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.input-text {
+  width: 70%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.button {
+  width: 70%;
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+
+.output-label {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid black;
+}
