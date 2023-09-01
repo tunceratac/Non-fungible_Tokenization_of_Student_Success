@@ -64,7 +64,7 @@ To run this project locally, follow these steps:
 
 ## Contributors
 
-- [Your Name](https://github.com/yourusername)
+- [Tuncer Ataç](https://github.com/tunceratac)
 
 ## License
 
